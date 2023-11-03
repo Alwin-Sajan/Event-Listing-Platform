@@ -1,4 +1,4 @@
-![[StackUp Banner](https://tinkerhub.frappe.cloud/files/stackup%20banner.jpeg)]
+![StackUp Banner](https://tinkerhub.frappe.cloud/files/stackup%20banner.jpeg)
 
 
 # Project Name
