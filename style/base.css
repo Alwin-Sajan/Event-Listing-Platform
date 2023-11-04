@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+ul.header{
+    height: 50px;
+    padding-top: 20px;
+    margin: 0;
+    width: 100vw;
+    background-color: rgb(15, 15, 15);
+}
+li{
+    display: inline;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+.slide-show{
+    background-color: yellow;
+    width: 100vw;
+    height: 70vh;
+}
