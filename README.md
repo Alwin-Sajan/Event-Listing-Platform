@@ -3,6 +3,8 @@
 
 # Lunar
 
+ [![Static Badge](https://img.shields.io/badge/🔮-Lunar-f29111)](https://alwin-sajan.github.io/Event-Listing-Platform/)
+
 Lunar is an event listing web platform where users can browse and view a list of upcoming events happening on their campus. Users can also submit their own events for listing.
 Lunar is the perfect way to stay up-to-date on all the happenings on your campus. Whether you're looking for a concert to attend, a lecture to listen to, or a club meeting to join, Lunar has you covered.
 To use Lunar, simply enter your campus name into the search bar. You'll be presented with a list of all the upcoming events happening on your campus, sorted by date. You can filter the list by category, date, or time to find the events that interest you the most.
