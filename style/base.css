@@ -5,6 +5,7 @@
 body{
     overflow-x: hidden;
     background-color: #fccb06;
+    position: relative;
     margin: 0;
 }
 ul.header{
@@ -40,10 +41,34 @@ li#active{
     height: 70vh;
   
 }
-.slide-show h1,.slide-show h4{
+.slide-show h1,.slide-show h4 ,.slide-show a{
     color: #fccb06;
     width: max-content;
     margin:10px auto;  
+    display: block;
+}
+.slide-show a{
+    background-color: #fbfcd4;
+    margin-top: 40px;
+    text-decoration: none;
+    display: flex;
+    align-items: center; 
+    color:black;
+    font-weight: 500;
+    height: 35px;
+    border-radius: 22px;
+    width: 210px;
+    justify-content: center;
+    box-shadow: 0px 0px 7px #fccb06;
+}
+.slide-show a:hover{
+    /* background-color: #fccb06; */
+    box-shadow: 0px 0px 10px #fccb06;
+    /* width: 250px;
+    height: 40px; */
+    transition: 20ms;
+    transform: scale(1.1);
+
 }
 .slide-show h1{
     font-size: 15rem;
@@ -68,6 +93,12 @@ li#active{
 #box1 h2{
     padding: 20px;
 }
+#box1 h3{
+    padding-left: 80px;
+}
+org{
+    color: #fccb06;
+}
 #box2{
     /* margin: 10px; */
     position:absolute;
@@ -83,7 +114,7 @@ li#active{
 .second-screen{
     position: relative;
     padding-top: 20px;
-    width: 99vw;
+    width: 100vw;
     margin: 0;
     height: 100vh;
     background-color: #fccb06;
@@ -108,14 +139,37 @@ li#active{
 }
 
 .events-list li{
-    width: 50vw;
+    display: inline-block;
+    width: 25rem;
     color: #fbfcd4;
-    height: 30vh;
+    height: 25rem;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
     background-color: black;
 }
 
 
+#Features{
+    height: 200px;
+    position: relative;
+    width: 100vw;
+    background-color:rgb(255, 255, 255);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+#Features li{
+    height: 120px;
+    width: 30%;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #fbfcd4;
+}
 
 
 
@@ -138,12 +192,122 @@ li h5{
     font-weight: 300;
 }
 
+/* Login-page */
+.login-page{
+    width: max-content;
+    margin: auto;
+    min-height: 98vh;
+    background-color: #fccb06;
+    
+}
+.login-main{
+    position: relative;
+    top:10px;
+    width: 90vw;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 22px;
+    min-height: 90vh;
+    background-color: #fbfcd4;
+}
+.profile{
+    margin: auto;
+    width: max-content;
+  }
+  .profile a{
+    text-align: center;
+    text-decoration: none;
+    color: #fccb06;
+  }
+  .profile h1{
+      text-align: center;
+      /* margin:26px auto; */
+      font-size: 36px;
+      width: max-content;
+  }
+  .profile img{
+      border-radius: 50%;
+      margin: auto;
+      display: block;
+      height: 150px;
+      width: 150px;
+      background-size:contain;
+      background-position: center;
+      border: 8px solid white;
+  }
+  form{
+      margin: auto;
+      width: max-content;
+  }
+  #check{
+      margin:auto 0 auto 27%;
+  }
+  form a{
+      margin:auto 25.6%;
+  }
+  form button{
+      background-color: black;
+      color:white;
+      height: 35px;
+      width: 210px;
+      margin: auto 20px;
+      box-shadow: 4px 4px 3px #fccb06;
+  }
+  input{
+      color: black;
+      background:none;
+      border: 0;
+      border-bottom: 2.2px solid black;
+  }
+  label{
+      font-weight: 600;
+  }
+
+
+
 @media(max-width :550px)  {
     li{
         display: none;
-
+    }
+    ul.header {
+        height: 50px;
     }
     .slide-show h1{
-        font-size: 8rem;
+        font-size: 5.5rem;
+    }
+    #box1{
+        height: 50%;
+        width: 80vw;
+    }
+    #box2{
+        height:33% ;
+        width: 77vw;
+    }
+    .login-main {
+        margin: 25px 10px;
+    }
+    .second-screen{
+        height: auto;
+    }
+    .second-view{
+        padding: 0;
+        margin: 10px auto;
+        height: auto;
+    }
+    .events-list{
+        margin: 20px auto 30px auto;
+        padding: 0;
+        width: max-content;
+    }
+    
+    .events-list li {
+        display: flex;
+        height: 17rem;
+        min-width: none;
+        width: 17rem;
+        margin: 8PX;
+    }
+    #Features{
+        display: none;
     }
 }
