@@ -1,25 +1,149 @@
 *{
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 body{
     overflow-x: hidden;
+    background-color: #fccb06;
     margin: 0;
 }
 ul.header{
-    height: 50px;
+    height: 80px;
     padding-top: 20px;
+    display: inline-flex;
+    justify-self: center;
+    position: sticky;
+    top: 0;
     margin: 0;
     width: 100vw;
     background-color: rgb(15, 15, 15);
+    border: 0;
+    border-bottom: 5px solid #fccb06;
 }
 li{
     display: inline;
-    padding: 10px;
-    color: aliceblue;
-    
+    padding: 10px 30px;
+}
+li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fbfcd4; 
+}
+li#active{
+    padding-right:800px;
+    font-size: 20px;
+    color: #fccb06;
 }
 .slide-show{
-    background-color: yellow;
+    background-color: rgb(0, 0, 0);
     width: 100vw;
     height: 70vh;
+  
+}
+.slide-show h1,.slide-show h4{
+    color: #fccb06;
+    width: max-content;
+    margin:10px auto;  
+}
+.slide-show h1{
+    font-size: 15rem;
+}
+
+.details{
+    height: 100vh;
+    background-color: #fccb06;
+    padding: 20px;
+    position: relative;
+}
+#box1{
+    /* margin: 10px; */
+    position:absolute;
+    top: 30px;
+    left: 20px;
+    background-color: #fbfcd4;
+    border-radius: 22px;
+    width: 70vw;
+    height: 80%;
+}
+#box1 h2{
+    padding: 20px;
+}
+#box2{
+    /* margin: 10px; */
+    position:absolute;
+    bottom: 30px;
+    right: 20px;
+    background-color: black;
+    border-radius: 22px;
+    width: 50vw;
+    height: 50%;
+}
+
+/* Second screen */
+.second-screen{
+    position: relative;
+    padding-top: 20px;
+    width: 99vw;
+    margin: 0;
+    height: 100vh;
+    background-color: #fccb06;
+}
+.second-view{
+    width: 93vw;
+    height: 95vh;
+    border-radius: 22px;
+    background-color: #fbfcd4;
+    padding: 20px;
+    position: relative;
+    margin: auto;
+}
+.second-view h3{
+    width: max-content;
+    margin: auto;
+}
+.events-list{
+    padding: 10px;
+    width: max-content;
+    margin: 10px;
+}
+
+.events-list li{
+    width: 50vw;
+    color: #fbfcd4;
+    height: 30vh;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    height: 500px;
+    width: 100vw;
+    background-color: black;
+}
+ul{
+    width: max-content;
+    margin: auto;
+}
+li h5{
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media(max-width :550px)  {
+    li{
+        display: none;
+
+    }
+    .slide-show h1{
+        font-size: 8rem;
+    }
 }
