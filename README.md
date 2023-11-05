@@ -12,13 +12,13 @@ For each event, Lunar provides a detailed description, including the date, time,
 If you're hosting an event on your campus, you can submit it to Lunar for listing. Simply create an account and click the "Submit Event" button. You'll be asked to provide information about your event, including the date, time, location, and description.
 Once your event is submitted, it will be reviewed by the Lunar team. Once approved, your event will be listed on the Lunar website and will be visible to all Lunar users.
 
-#### Features:
+### Features:
 * Browse and view a list of upcoming events happening on your campus
 * Filter events by category, date, or time
 * RSVP to events directly through Lunar
 * Submit your own events for listing
 
-#### Benefits:
+### Benefits:
 * Stay up-to-date on all the happenings on your campus
 * Find events that interest you
 * RSVP to events easily and quickly
