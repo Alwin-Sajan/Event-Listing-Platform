@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: #fccb06;
+    position: relative;
+    margin: 0;
+}
+ul.header{
+    height: 80px;
+    padding-top: 20px;
+    display: inline-flex;
+    justify-self: center;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    width: 100vw;
+    background-color: rgb(15, 15, 15);
+    border: 0;
+    border-bottom: 5px solid #fccb06;
+}
+li{
+    display: inline;
+    padding: 10px 30px;
+}
+li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fbfcd4; 
+}
+li#active{
+    padding-right:800px;
+    font-size: 20px;
+    color: #fccb06;
+}
+.main-page{
+    /* background-color: #fccb06; */
+    width: 100vw;
+    height: 100vh;
+}
+.page-divider{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fbfcd4;
+    display: flex;
+}
+.divi1{
+    background-color: rgb(0, 0, 0);
+    width: 10%;
+    height: 100vh;
+}
+.divi2{
+    background-color: #fccb06;
+    width: 60%;
+    height: 100vh;
+    padding-left: 20px;
+}
+.divi3{
+    width: 30%;
+    height: 100vh;
+    /* background-color: black; */
+}
+.events-list li{
+    display: inline-block;
+    padding: 10px;
+}
+.event-box{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: black;
+    margin: 5px;
+    
+}
+
+
+/* second-page */
+.second-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+/* third-page */
+.third-page{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #fbfcd4; */
+}

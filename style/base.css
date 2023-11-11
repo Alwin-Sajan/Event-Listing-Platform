@@ -47,7 +47,7 @@ li#active{
     margin:10px auto;  
     display: block;
 }
-.slide-show a{
+ a.main-button{
     background-color: #fbfcd4;
     margin-top: 40px;
     text-decoration: none;
@@ -61,7 +61,7 @@ li#active{
     justify-content: center;
     box-shadow: 0px 0px 7px #fccb06;
 }
-.slide-show a:hover{
+a.main-button:hover{
     /* background-color: #fccb06; */
     box-shadow: 0px 0px 10px #fccb06;
     /* width: 250px;
@@ -128,7 +128,7 @@ org{
     position: relative;
     margin: auto;
 }
-.second-view h3{
+.second-view h2{
     width: max-content;
     margin: auto;
 }
@@ -150,6 +150,61 @@ org{
 }
 
 
+/* Third screen */
+.third-screen{
+    position: relative;
+    padding-top: 20px;
+    width: 100vw;
+    margin: 0;
+    height: 100vh;
+    background-color: #fccb06;
+}
+.third-view{
+    width: 93vw;
+    height: 95vh;
+    /* border-radius: 22px; */
+    /* background-color: #fbfcd4; */
+    padding: 20px;
+    position: relative;
+    margin: auto;
+}
+.third-view h2{
+    width: max-content;
+    margin: auto;
+}
+
+/* .events-list{
+    padding: 10px;
+    width: max-content;
+    margin: 10px;
+}
+*/
+.third-view .events-list li{
+    display: inline-block;
+    width: 25rem;
+    color: #fbfcd4;
+    height: 25rem;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #fbfcd4;
+}
+
+/* Two-screen */
+.two-screen{
+    position: relative;
+    width: max-content;
+}
+#event-image{
+   
+    /* position: relative; */
+    width: 50%;
+    height: auto;
+    left: 20px;
+}
+
+
+/*  */
 #Features{
     height: 200px;
     position: relative;
