@@ -1,0 +1,158 @@
+[{
+  "_id": {
+    "$oid": "6553ae09e8c95a36c646f810"
+  }
+},
+{
+  "_id": {
+    "$oid": "6553ae09e8c95a36c646f811"
+  },
+  "const": "const",
+  "mongoose": "EventSchema",
+  "=": "=",
+  "require('mongoose');": "new"
+},
+{
+  "_id": {
+    "$oid": "6553ae09e8c95a36c646f812"
+  },
+  "mongoose": "title:",
+  "=": "String,"
+},
+{
+  "_id": {
+    "$oid": "6553ae09e8c95a36c646f813"
+  },
+  "mongoose": "description:",
+  "=": "String,"
+},
+{
+  "_id": {
+    "$oid": "6553ae09e8c95a36c646f814"
+  },
+  "mongoose": "date:",
+  "=": "Date,"
+},
+{
+  "_id": {
+    "$oid": "6553ae09e8c95a36c646f815"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "6553ae09e8c95a36c646f816"
+  }
+},
+{
+  "_id": {
+    "$oid": "6553ae09e8c95a36c646f817"
+  },
+  "const": "module.exports",
+  "mongoose": "=",
+  "=": "mongoose.model('Event',",
+  "require('mongoose');": "EventSchema);"
+},
+{
+  "_id": {
+    "$oid": "6553ae13e8c95a36c646f818"
+  }
+},
+{
+  "_id": {
+    "$oid": "6553ae13e8c95a36c646f819"
+  },
+  "const": "const",
+  "mongoose": "UserSchema",
+  "=": "=",
+  "require('mongoose');": "new"
+},
+{
+  "_id": {
+    "$oid": "6553ae13e8c95a36c646f81a"
+  },
+  "mongoose": "name:",
+  "=": "String,"
+},
+{
+  "_id": {
+    "$oid": "6553ae13e8c95a36c646f81b"
+  },
+  "mongoose": "email:",
+  "=": "String,"
+},
+{
+  "_id": {
+    "$oid": "6553ae13e8c95a36c646f81c"
+  },
+  "mongoose": "password:",
+  "=": "String,"
+},
+{
+  "_id": {
+    "$oid": "6553ae13e8c95a36c646f81d"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "6553ae13e8c95a36c646f81e"
+  }
+},
+{
+  "_id": {
+    "$oid": "6553ae13e8c95a36c646f81f"
+  },
+  "const": "module.exports",
+  "mongoose": "=",
+  "=": "mongoose.model('User',",
+  "require('mongoose');": "UserSchema);"
+},
+{
+  "_id": {
+    "$oid": "6553ae1de8c95a36c646f820"
+  },
+  "const": "const",
+  "express": "mongoose",
+  "=": "=",
+  "require('express');": "require('mongoose');"
+},
+{
+  "_id": {
+    "$oid": "6553ae1de8c95a36c646f821"
+  }
+},
+{
+  "_id": {
+    "$oid": "6553ae1de8c95a36c646f822"
+  },
+  "const": "const",
+  "express": "app",
+  "=": "=",
+  "require('express');": "express();"
+},
+{
+  "_id": {
+    "$oid": "6553ae1de8c95a36c646f823"
+  }
+},
+{
+  "_id": {
+    "$oid": "6553ae1de8c95a36c646f824"
+  },
+  "const": "app.use(express.json());"
+},
+{
+  "_id": {
+    "$oid": "6553ae1de8c95a36c646f825"
+  }
+},
+{
+  "_id": {
+    "$oid": "6553ae1de8c95a36c646f826"
+  },
+  "const": "//",
+  "express": "Replace",
+  "=": "'path/to/models'",
+  "require('express');": "with"
+}]
