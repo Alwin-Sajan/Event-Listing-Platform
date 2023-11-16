@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="/resources/logo.png">
+    <title>Lunar - Create Account</title>
+    <link rel="stylesheet" href="/style/base.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="login-page">
+        <div class="login-main">
+            <div class="profile">
+                <a href="/Event-Listing-Platform"><h2>Lunar</h2></a>
+                <h1>Create Account</h1><br>
+                <!-- You can add any additional styling or content here -->
+            </div>
+
+            <br>
+            <br>
+            <form method="post" action="/create_account">
+                <label for="username">Username </label>
+                <input type="text" id="username" name="username" placeholder="Enter username" required>
+                <br>
+                <br>
+                <label for="password">Password </label>
+                <input type="password" id="password" name="password" placeholder="Enter password" required>
+                <br>
+                <br>
+                <button type="submit" name="create_account">Create Account</button>
+                <br>
+                <br>
+                <p>Already have an account? <a href="/Event-Listing-Platform/login.html">Login</a></p>
+            </form>
+
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li class="Project">
+                <h5>Team: Reverse</h5>
+                <p>Project name: Lunar</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
