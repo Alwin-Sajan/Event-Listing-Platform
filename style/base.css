@@ -349,6 +349,15 @@ li h5{
         margin: 10px auto;
         height: auto;
     }
+    .third-screen{
+        clear: both;
+        height: auto;
+    }
+    .third-view{
+        clear: both;
+        height: auto;
+        align-content: center;
+    }
     .events-list{
         margin: 20px auto 30px auto;
         padding: 0;
@@ -361,6 +370,17 @@ li h5{
         min-width: none;
         width: 17rem;
         margin: 8PX;
+    }
+    .third-view .events-list li{
+        clear: both;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        gap: 10px;
+        width: 17rem;
+        height: 17rem;
+        /* margin: 8px; */
     }
     #Features{
         display: none;
