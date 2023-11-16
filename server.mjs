@@ -7,7 +7,7 @@ function server(req, res) {
 
 if (req.url==='/'){
 
-    fs.readFile('samplehtml.html', function (err,data){
+    fs.readFile('login.html', function (err,data){
     
     res.writeHead (200, {'Content-Type': 'text/html'})
      res.write(hai)
